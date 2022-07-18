@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForDCT", "TestForDCT\TestForDCT.csproj", "{078823C0-3C06-41D6-9A59-93DCD9B574AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{078823C0-3C06-41D6-9A59-93DCD9B574AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078823C0-3C06-41D6-9A59-93DCD9B574AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078823C0-3C06-41D6-9A59-93DCD9B574AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078823C0-3C06-41D6-9A59-93DCD9B574AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE722084-EA1B-4D30-A601-6F630BC12ACC}
+	EndGlobalSection
+EndGlobal

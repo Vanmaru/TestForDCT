@@ -1,0 +1,62 @@
+﻿<Window x:Class="TestForDCT.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestForDCT.View"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Style="{DynamicResource WindowStyle}">
+    <Grid>
+        <Grid.RowDefinitions Height="50"/>
+        <TabControl Grid.Row="0">
+            <TabItem Name="UserTab">
+                <TabItem.Header>
+                    <TextBlock Text="TOP-10"/>
+                </TabItem.Header>
+                <ListView>
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Width="50" Header="Name"/>
+                            <GridViewColumn Header="Price"/>
+                            <GridViewColumn Width="60" Header="Changes"/>
+                            <GridViewColumn Width="110" Header="Volume in 24 hours"/>
+                            <GridViewColumn Width="80" Header="Capitalization"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Name="SomeTab">
+                <TabItem.Header>
+                    <TextBlock Text="Stuff"/>
+                </TabItem.Header>
+                <ListView>
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Width="50" Header="Name"/>
+                            <GridViewColumn Header="Price"/>
+                            <GridViewColumn Width="60" Header="Changes"/>
+                            <GridViewColumn Width="110" Header="Volume in 24 hours"/>
+                            <GridViewColumn Width="80" Header="Capitalization"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Name="SampleTab">
+                <TabItem.Header>
+                    <TextBlock Text="Stuff"/>
+                </TabItem.Header>
+                <ListView>
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Width="50" Header="Name"/>
+                            <GridViewColumn Header="Price"/>
+                            <GridViewColumn Width="60" Header="Changes"/>
+                            <GridViewColumn Width="110" Header="Volume in 24 hours"/>
+                            <GridViewColumn Width="80" Header="Capitalization"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
