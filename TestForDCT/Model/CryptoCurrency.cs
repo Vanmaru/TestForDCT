@@ -1,7 +1,7 @@
 ﻿
 namespace TestForDCT.Model
 {
-    class CryptoCurrency
+    public class CryptoCurrency
     {
         public string Id { get; set; }
         public string Name { get; set; }
